@@ -10,7 +10,7 @@ import Foundation
 import shared
 
 class CafeResponseItemViewModel: ObservableObject {
-    @Published var cafeResponseItem = [CafeResponseItem]()
+    @Published var cafeResponseItemList = [CafeResponseItem]()
 
     private let repository: DataRepository
     
@@ -21,7 +21,7 @@ class CafeResponseItemViewModel: ObservableObject {
     func fetch() {
         repository.fetchCafesFromNetwork(cityName:"taipei"){ result , error in
             if let result = result{
-                self.cafeResponseItem = result
+                self.cafeResponseItemList = result
             }
         }
     }
