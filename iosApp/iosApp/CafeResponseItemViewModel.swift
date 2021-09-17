@@ -1,5 +1,5 @@
 //
-//  CafeResponceItemViewModel.swift
+//  CafeResponseItemViewModel.swift
 //  iosApp
 //
 //  Created by yuli on 2021/9/17.
@@ -9,7 +9,7 @@
 import Foundation
 import shared
 
-class CafeResponceItemViewModel: ObservableObject {
+class CafeResponseItemViewModel: ObservableObject {
     @Published var cafeResponseItem = [CafeResponseItem]()
 
     private let repository: DataRepository

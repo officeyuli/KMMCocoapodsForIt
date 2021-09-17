@@ -2,15 +2,15 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-    @ObservedObject var cafeResponceItemViewModel =  CafeResponceItemViewModel(repository:DataRepository())
+    @ObservedObject var cafeResponseItemViewModel =  CafeResponseItemViewModel(repository:DataRepository())
     var body: some View {
         NavigationView {
-            List(cafeResponceItemViewModel.cafeResponseItem, id: \.id) { cafe in
+            List(cafeResponseItemViewModel.cafeResponseItem, id: \.id) { cafe in
                         CafeView(cafeResponseItem: cafe)
                     }
                     .navigationBarTitle(Text("CafeList"), displayMode: .large)
                     .onAppear(perform: {
-                        self.cafeResponceItemViewModel.fetch()
+                        self.cafeResponseItemViewModel.fetch()
                     })
                 }
     }
