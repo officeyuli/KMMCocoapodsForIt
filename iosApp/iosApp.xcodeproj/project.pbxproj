@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		B220180A26F4D68F008DF37E /* CafeResponceItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220180926F4D68F008DF37E /* CafeResponceItemViewModel.swift */; };
 		F1DFBD86A31A3DAB76DE6AE9 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C57DF6A2217266B2C31DA45 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C57DF6A2217266B2C31DA45 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B220180926F4D68F008DF37E /* CafeResponceItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeResponceItemViewModel.swift; sourceTree = "<group>"; };
 		C1A9E3536F765AA5A2A7DABE /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
+				B220180926F4D68F008DF37E /* CafeResponceItemViewModel.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -76,7 +79,6 @@
 				C1A9E3536F765AA5A2A7DABE /* Pods-iosApp.debug.xcconfig */,
 				59AD473469DC824F85D1460C /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,6 +178,7 @@
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				B220180A26F4D68F008DF37E /* CafeResponceItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
